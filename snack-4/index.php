@@ -18,7 +18,7 @@
     $randomArray = [];
     $i = 0;
     while ($i < 15) {
-        $randomNumber = random_int(0, 15);
+        $randomNumber = random_int(0, 100);
         if (!in_array($randomNumber, $randomArray)) {
             $randomArray[] = $randomNumber;
             $i++;
